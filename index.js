@@ -6,7 +6,7 @@ const port = process.env.port || 3000
 
 const server = http.createServer((req, res) => {
 
-  /*const getPostTitles = async () => {
+  const getPostTitles = async () => {
 	try {
 		const { data } = await axios.get(
 			'https://www.paulus.com.br/portal/liturgia-diaria/'
@@ -30,9 +30,7 @@ const server = http.createServer((req, res) => {
 
   getPostTitles().then((postTitles) => 
     res.write('<div class="conteudo"> <div class="textoPrincipal">' +  postTitles + '</div>')
-  );*/
-
-res.end("ok")
+  );
 
 })
 
