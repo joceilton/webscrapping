@@ -1,7 +1,6 @@
 {
-  "name": "Webscrapping",
+  "name": "webscrapping",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -14,5 +13,14 @@
     "cheerio": "^1.0.0-rc.10",
     "express": "^4.17.2",
     "puppeteer": "^13.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joceilton/webscrapping.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joceilton/webscrapping/issues"
+  },
+  "homepage": "https://github.com/joceilton/webscrapping#readme",
+  "description": ""
 }
